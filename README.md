@@ -1,6 +1,6 @@
 # 3D Print the Universe!
 
-![](https://raw.githubusercontent.com/drphilmarshall/3d_print_the_universe/master/heightmap-input2stl.jpg)
+![Left: 2D representation of the dark matter density in a cosmological simulation, Right: 3D model of the same data, ready to print!](https://raw.githubusercontent.com/drphilmarshall/3d_print_the_universe/master/images/heightmap-input2stl.jpg)
 
 ## What is it?
 
