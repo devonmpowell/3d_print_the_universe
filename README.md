@@ -1,6 +1,11 @@
 # 3D Print the Universe!
 
+<<<<<<< HEAD
 ![Left: 2D representation of the dark matter density in a cosmological simulation, Right: 3D model of the same data, ready to print!](images/heightmap-input2stl.jpg)
+=======
+![Left: 2D representation of the dark matter density in a cosmological simulation, Right: 3D model of the same data, ready to print!](./images/heightmap-input2stl.jpg)
+![Left: 3D printing in progress, Middle: Finished density relief map and dark matter filaments, Right: Translucent 2D relief map, backlit against a window.](./images/print2model2backlit.jpg)
+>>>>>>> e1f3bc033264e5044215b0027d625254f1895c98
 
 As the Universe expanded and cooled after the Big Bang, small variations in density began to grow due to gravitational clumping of dark matter. This seemingly mundane process created a variety of complex structures: In the same way that a river cuts its own course through a landscape, dark matter flows "downhill" through the cosmic gravitational "landscape" to create filaments ("rivers") that feed matter into dense haloes ("lakes"). 
 
