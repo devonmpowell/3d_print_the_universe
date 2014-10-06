@@ -18,10 +18,10 @@ We have created the world's first 3D model of this "dark landscape" using state-
 computational tools and 3D printing technology.
 
 The 3D models are:
-- `fullbox_00.stl`: A full N-body simulation box at z = 0. This volume is 40 Mpc/h (~100 million
+- [`fullbox_00.stl`](https://github.com/drphilmarshall/3d_print_the_universe/blob/master/fullbox_00.stl): A full N-body simulation box at z = 0. This volume is 40 Mpc/h (~100 million
   light-years) on a side!
-- `halo.stl`: A zoomed-in version, centered on one dark matter halo
-- `heightmap.stl`: A heightmap of the line-of-sight projected density along one axis
+- [`halo.stl`](https://github.com/drphilmarshall/3d_print_the_universe/blob/master/halo.stl): A zoomed-in version, centered on one dark matter halo, showing the filaments flowing into it
+- [`heightmap.stl`](https://github.com/drphilmarshall/3d_print_the_universe/blob/master/halo.stl): A 3D realization of a "3D plot" of the line-of-sight projected density along one axis
 
 Contents
 --------
