@@ -1,6 +1,6 @@
 # 3D Print the Universe!
 
-![](https://raw.githubusercontent.com/drphilmarshall/3d_print_the_universe/master/heightmap-input2stl.png)
+![](https://raw.githubusercontent.com/drphilmarshall/3d_print_the_universe/master/heightmap-input2stl.jpg)
 
 ## What is it?
 
