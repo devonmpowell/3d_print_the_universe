@@ -2,8 +2,6 @@
 
 ![Left: 2D representation of the dark matter density in a cosmological simulation, Right: 3D model of the same data, ready to print!](https://raw.githubusercontent.com/drphilmarshall/3d_print_the_universe/master/images/heightmap-input2stl.jpg)
 
-## What is it?
-
 As the Universe expanded and cooled after the Big Bang, small variations in density began to grow due to gravitational clumping of dark matter. This seemingly mundane process created a variety of complex structures: In the same way that a river cuts its own course through a landscape, dark matter flows "downhill" through the cosmic gravitational "landscape" to create filaments ("rivers") that feed matter into dense haloes ("lakes"). 
 
 We have created the world's first 3D model of this "dark landscape" using state-of-the-art
