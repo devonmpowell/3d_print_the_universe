@@ -32,56 +32,58 @@
 
 	  <!-- Main content -->
       <section>
-        <h1>
-<a name="3d-print-the-universe" class="anchor" href="#3d-print-the-universe"><span class="octicon octicon-link"></span></a>3D Print the Universe!</h1>
 
-<figure>
-<img src="https://github.com/devonmpowell/3d_print_the_universe/raw/master/images/heightmap-input2stl.jpg" alt="Image not found :(" /> 
-	<figcaption>Left: 2D representation of the dark matter
-	density in a cosmological simulation, Right: 3D model of the same data, ready to
-	print!</figcaption>
-</figure>
+	  <!--intro section-->
+	<h2><a name="what-is-it" class="anchor" href="#what-is-it"><span class="octicon octicon-link"></span></a>What is it?</h2>
 
-<figure >
-	<img src="https://github.com/devonmpowell/3d_print_the_universe/raw/master/images/print2model2backlit.jpg" alt="Image not found :(" />
-	<figcaption>Left: 3D printing in progress, Middle: Finished density relief map and dark matter
-	filaments, Right: Translucent 2D relief map, backlit against a window.</figcaption>
-</figure>
+	<figure>
+	<img src="https://github.com/devonmpowell/3d_print_the_universe/raw/master/images/heightmap-input2stl.jpg" alt="Image not found :(" /> 
+		<figcaption>Left: 2D representation of the dark matter density in a cosmological simulation, Right: 3D model of the same data, ready to print!</figcaption>
+	</figure>
+	<figure>
+		<img src="https://github.com/devonmpowell/3d_print_the_universe/raw/master/images/print2model2backlit.jpg" alt="Image not found :(" />
+		<figcaption>Left: 3D printing in progress, Middle: Finished density relief map and dark matter filaments, Right: Translucent 2D relief map, backlit against a window.</figcaption>
+	</figure>
 
-<p>As the Universe expanded and cooled after the Big Bang, small variations in density began to grow due to gravitational clumping of dark matter. This seemingly mundane process created a variety of complex structures: In the same way that a river cuts its own course through a landscape, dark matter flows "downhill" through the cosmic gravitational "landscape" to create filaments ("rivers") that feed matter into dense haloes ("lakes"). </p>
+	<p>As the Universe expanded and cooled after the Big Bang, small variations in density began to grow due to gravitational clumping of dark matter. This seemingly mundane process created a variety of complex structures: In the same way that a river cuts its own course through a landscape, dark matter flows "downhill" through the cosmic gravitational "landscape" to create filaments ("rivers") that feed matter into dense haloes ("lakes"). </p>
+	
+	<p>We have created the world's first 3D model of this "dark landscape" using state-of-the-art
+	computational tools and 3D printing technology.</p>
+	
+	<p>The 3D models are:</p>
+	
+	<ul>
+	<li>
+	<code>fullbox_00.stl</code>: A full N-body simulation box at z = 0. This volume is 40 Mpc/h (~100 million
+	light-years) on a side!</li>
+	<li>
+	<a href="https://github.com/devonmpowell/3d_print_the_universe/blob/master/halo.stl"><code>halo.stl</code></a>: A zoomed-in version, centered on one dark matter halo, showing the filaments flowing into it</li>
+	<li>
+	<a href="https://github.com/devonmpowell/3d_print_the_universe/blob/master/heightmap.stl"><code>heightmap.stl</code></a>: A 3D realization of a "3D plot" of the line-of-sight projected density along one axis</li>
+	</ul>
 
-<p>We have created the world's first 3D model of this "dark landscape" using state-of-the-art
-computational tools and 3D printing technology.</p>
+	<!--contents section-->
+	<h2><a name="contents" class="anchor" href="#contents"><span class="octicon octicon-link"></span></a>Contents</h2>
+	
+	<ul>
+	<li>iPython Notebook code for converting a volumetric density dataset to a 3D <code>.obj</code> file</li>
+	<li>
+	<code>.stl</code> models suitable for 3D printing (converted from <code>.obj</code> using Blender) </li>
+	<li>Warning: <code>fullbox_00.stl</code> is 99MB!</li>
+	</ul>
 
-<p>The 3D models are:</p>
-
-<ul>
-<li>
-<code>fullbox_00.stl</code>: A full N-body simulation box at z = 0. This volume is 40 Mpc/h (~100 million
-light-years) on a side!</li>
-<li>
-<a href="https://github.com/devonmpowell/3d_print_the_universe/blob/master/halo.stl"><code>halo.stl</code></a>: A zoomed-in version, centered on one dark matter halo, showing the filaments flowing into it</li>
-<li>
-<a href="https://github.com/devonmpowell/3d_print_the_universe/blob/master/heightmap.stl"><code>heightmap.stl</code></a>: A 3D realization of a "3D plot" of the line-of-sight projected density along one axis</li>
-</ul><h2>
-<a name="contents" class="anchor" href="#contents"><span class="octicon octicon-link"></span></a>Contents</h2>
-
-<ul>
-<li>iPython Notebook code for converting a volumetric density dataset to a 3D <code>.obj</code> file</li>
-<li>
-<code>.stl</code> models suitable for 3D printing (converted from <code>.obj</code> using Blender) </li>
-<li>Warning: <code>fullbox_00.stl</code> is 99MB!</li>
-</ul><h2>
-<a name="credits" class="anchor" href="#credits"><span class="octicon octicon-link"></span></a>Credits</h2>
-
-<p>By Tony Li and Devon Powell at Science Hack Day, October 4-5, 2014 at 
-GitHub HQ, San Francisco, CA. Inspiration from Matt Bellis and Phil 
-Marshall. Many thanks to Matt Bennett (Type A Machines) and Matt Hova 
-(Autodesk) for volunteering their 3D printing equipment and expertise!</p>
       </section>
 
 	<!--Footer-->
       <footer>
+	  
+		<!--<h2><a name="credits" class="anchor" href="#credits"><span class="octicon octicon-link"></span></a>Credits</h2>-->
+		<p>Created at <a href="https://twitter.com/hashtag/sciencehackday">#ScienceHackDay</a> San Francisco 2014 by Tony Li and Devon Powell</p>
+		<p>Inspiration from Matt Bellis and Phil Marshall</p>
+		<p>Many thanks to Matt Bennett (Type A Machines) and Matt Hova 
+		(Autodesk) for volunteering their 3D printing equipment and expertise!</p>
+
+
         <p>This project is maintained by <a href="https://github.com/devonmpowell">devonmpowell</a></p>
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
